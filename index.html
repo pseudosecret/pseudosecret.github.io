@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Wilbur Industries</title>
+    <link rel="stylesheet" type="text/css" href="css/wilburindustries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/smovement.js"></script>
+</head>
+<div id="sky-body">
+    <div id="big-name">
+        <div id="test-scroll"></div>
+        <h1><span id="industry-name">WILBUR INDUSTRIES</span></h1>
+    </div>
+    <div id="subtitle">Explore our campus below!</div>
+    <div id="sky-head"><img class="cloud" id="top-cloud" src="img/cloud.png"><img class="cloud" id="right-cloud-1" src="img/cloud2.png"><img class="cloud" id="right-cloud-2" src="img/cloud1.png"><img id="left-cloud" src="img/cloud1.png"></div>
+    <div class="col-height" id="left-col">
+        <div id="left-bg-space"></div>
+        <div class="bg-factory"><img class="smokestack image" id="left-stack-1" src="img/smokestack.png"><img class="smokestack image" id="left-stack-2" src="img/smokestack.png"></div>
+        <div id="left-fg-factory"><img class="window image" id="l-wndw-1" src="img/window-1.png"><img class="window image" id="l-wndw-2" src="img/window-1.png"><img class="image" id="fence-warning" src="img/fence-warning.png"></div>
+        <div class="factory-room" id="left-factory-room"><span class="factory-room-contents" id="left-factory-room-contents"><a id="get-work-room-list" href="#work-room">Work Room</a></span></div>
+        <div class="modalDialog" id="work-room">
+            <div><a class="close" href="#close" title="Close">X</a>
+                <h3 class="centered">The Work Room</h3>
+                <p>Visit this blog if you&apos;d like to know:</p>
+                <p class="nav"><a href="placeholder.html">What&apos;s new.</a></p>
+                <p class="nav"><a href="placeholder.html">Forrest&apos;s thoughts.</a></p>
+                <p class="nav"><a href="placeholder.html">Ben&apos;s thoughts.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-height" id="right-col">
+        <div id="right-bg-space"></div>
+        <div class="bg-factory"><img class="smokestack image" id="right-stack-1" src="img/smokestack.png"><img class="smokestack image" id="right-stack-2" src="img/smokestack.png"></div>
+        <div id="right-fg-factory"><img class="window image" id="r-wndw-1" src="img/window-3.png"><img class="window image" id="r-wndw-2" src="img/window-4.png"><img class="image" id="light" src="img/yellow-light.png"><img class="image" id="door" src="img/scifi-door.png"><img class="image stairs" id="stairs" src="img/stairs.png"></div>
+        <div class="factory-room" id="right-factory-room"><span class="factory-room-contents" id="right-factory-room-contents"><a href="#about-us">About Us</a></span></div>
+        <div class="modalDialog" id="about-us">
+            <div><a class="close" href="#close" title="Close">X</a>
+                <h3 class="centered">Who are we?</h3>
+                <p>Wilbur Industries harvests quality content from
+                    its employees&apos; dreams of self-sufficiency.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-height" id="mid-col">
+        <div id="mid-sub-col-1">
+            <div id="roof-part-1" align="center"></div>
+            <div id="roof-part-2" align="center"></div>
+            <div id="roof-part-3"></div>
+        </div>
+        <div id="roof-part-4"></div>
+        <div id="mid-sub-col-2">
+            <div id="main-building" align="center">
+                <div class="gen-room" id="writing-room"><a id="get-writing-list" href="#writing">Creative Writing</a></div>
+                <div class="gen-room" id="music-room"><a id="get-music-list" href="#music">&sung; Music &sung;</a></div>
+                <div class="gen-room" id="gaming-room"><a id="get-gaming-list" href="#gaming">Games and Gaming</a></div>
+            </div>
+        </div>
+        <div class="bg-factory"></div>
+        <div id="mid-fg-factory"><img class="window image" id="m-wndw-1" src="img/window-1.png"><img class="window image" id="m-wndw-2" src="img/window-2.png"></div>
+        <div class="factory-room" id="mid-factory-room"><span class="factory-room-contents" id="mid-factory-room-contents"><a id="get-cv-list" href="#curricula-vitae">Curricula<br>Vitae</a></span></div>
+    </div>
+    <div class="modalDialog" id="curricula-vitae">
+        <div><a class="close" href="#close" title="Close">X</a>
+            <h3 class="centered">Our Curricula Vitae</h3>
+            <p class="nav"><a href="files/Forrest Wilbur resume.pdf">Forrest A. Wilbur</a></p>
+            <p class="nav"><a href="placeholder.html">Benjamin L. Wilbur</a></p>
+        </div>
+    </div>
+</div>
+<div id="ground"></div>
+<div id="grass">
+    <div id="fence"></div>
+    <footer>&copy; Wilbur Industries, 2016</footer>
+</div>
+<div class="modalDialog" id="writing">
+    <div><a class="close" href="#close" title="Close">X</a>
+        <h3 class="centered">Our Literary Works</h3>
+        <p>Strong words, we know. We take pride in our writing.
+            Click on the links below to see:</p>
+        <p class="nav"><a href="placeholder.html">Forrest&apos;s Writing.</a></p>
+        <p class="nav"><a href="placeholder.html">Ben&apos;s writing.</a></p>
+    </div>
+</div>
+<div class="modalDialog" id="music">
+    <div><a class="close" href="#close" title="Close">X</a>
+        <h3 class="centered">Forrest Writes Music</h3>
+        <p class="nav"><a href="https://www.youtube.com/watch?v=NR3Ho-OYVAY&list=PLoBW9kjSwlhWmtOFpMP9xZDfB4fPsuZoO">Algorithmic compositions.</a></p>
+        <p class="nav"><a href="https://www.youtube.com/watch?v=NuKqAv_3FsI&list=PLoBW9kjSwlhVXn96VQ8dnh-TT8b7_o-Zv">Songs with lyrics.</a></p>
+        <p class="nav"><a href="https://www.youtube.com/watch?v=SpuqfvAW2_s&list=PLoBW9kjSwlhWjZpWLwqNTIhnzhDg172_m">Pieces without lyrics.</a></p>
+        <p class="nav"><a href="https://www.soundcloud.com/beloveddescant">... or all of the music.</a></p>
+    </div>
+</div>
+<div class="modalDialog" id="gaming">
+    <div><a class="close" href="#close" title="Close">X</a>
+        <h3 class="centered">Games of Interest or Note</h3>
+        <p class="nav"><a href="democracy">Democracy.</a></p>
+        <p class="nav"><a href="http://www.legacyofmages.com/">Dungeons and Dragons 5th Edition.</a></p>
+        <p class="nav"><a href="http://creationroleplayinggame.weebly.com/">Creation by Sam Butler.</a></p>
+    </div>
+</div>
